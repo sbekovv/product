@@ -1,0 +1,99 @@
+@media screen and (max-width: 450px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        border: none;
+        cursor: pointer;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    html, body {
+        scroll-behavior: smooth;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #cccccc;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #02887a;
+        border-radius: 10px;
+    }
+
+    body.dark {
+        background: #1f2e35;
+        color: #fff;
+        transition: .5s;
+    }
+
+    body.dark button {
+        transition: .4s;
+        border: 2px solid #02897A;
+    }
+
+    body.dark h1 {
+        color: white;
+    }
+
+    body.dark h2 {
+        color: white;
+        text-transform: uppercase;
+    }
+
+    body.dark h3 {
+        color: white;
+    }
+
+    body.dark h4 {
+        color: white;
+    }
+
+    body.dark a {
+        color: white;
+    }
+
+    body.dark p {
+        color: white;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-logo h1 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #173A56;
+        padding-left: 16px;
+    }
+
+    .header-nav a {
+        display: none;
+    }
+}
